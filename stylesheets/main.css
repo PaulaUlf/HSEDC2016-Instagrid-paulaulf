@@ -1,0 +1,6 @@
+.gallery {
+  /*position: relative;
+  overflow: hidden;*/
+  display: flex;
+  transition: all .3s ease;
+}

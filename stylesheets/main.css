@@ -1,38 +1,49 @@
 .gallery {
   position: relative;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .galleryRail {
   display: flex;
-  transition: all .3s ease;
+  transition: all .5s ease;
+}
+
+.galleryRail img {
+  display: block;
+  margin: 0 auto;
 }
 
 .galleryRail figure {
-  display: block;
- 
+  display:flex;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
 
 }
 
-.img {
+.images {
   display: flex;
   position: relative;
+  align-items: center;
+
 }
 
 
-
-.img.large {
-  display: flex;
-  width: 100vw;
-  min-width: 100vw;
-  flex-direction: column;
+.large img {
+  width: 100vh;
+  height: 100vh;
 }
 
-.img.small {
+.small {
   display: flex;
-  width: 50vw;
-  min-width: 50vw;
   flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.small img {
+  width: 50vh;
+  height: 50vh;
 }
 
 .galleryNav {
@@ -41,11 +52,12 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: calc(100% - 51px);
+  height: 100%;
 }
 
 .galleryNav div {
   position: relative;
+  display: block;
   width: 20px;
   height: 20px;
   margin: 30px;

@@ -1,0 +1,49 @@
+.menubar,
+.footer {
+  position: fixed;
+  background-color: black;
+  height: 6vh;
+  width: 100%;
+}
+
+.menubar {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: black;
+  margin: 0 auto;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+.footer {
+  bottom: 0;
+  text-align: center;
+}
+
+.about {
+  position: fixed;
+  margin-left: -30vw;
+}
+
+.name {
+  position: fixed;
+  margin-left: 0vw;
+}
+
+.contacts {
+  position: fixed;
+  margin-left: 30vw;
+}
+
+a {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2vh;
+  line-height: 6vh;
+  color: white;
+  text-decoration: none;;
+  display: inline-block;
+}

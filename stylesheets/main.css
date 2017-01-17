@@ -25,9 +25,9 @@
   display: flex;
   position: relative;
   align-items: center;
+  justify-content: center;
 
 }
-
 
 .large img {
   width: 96vh;
@@ -46,7 +46,8 @@
   height: 48vh;
 }
 
-.galleryNav div {
+
+/*.galleryNav div {
   position: fixed;
   margin-top: 50vh;
   cursor: pointer;
@@ -57,27 +58,80 @@
 .galleryNav div::after {
   content: "";
   position: fixed;
-  background: #9FAFC2;
+  background: white;
+    text-align: center;
 }
 
 .galleryNav div::before {
-  width: 5px;
-  height: 20px;
+  width: 1vh;
+  height: 4vh;
 }
 
 .galleryNav div::after {
-  width: 20px;
-  height: 5px;
+  width: 4vh;
+  height: 1vh;
 }
 
 #prev {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  left: 15px;
+  left: 4vh;
 }
 
 #next {
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
-  right: 15px;
+  right: 5vh;
+}*/
+
+
+.galleryNav div {
+  position: fixed;
+  margin-top: 50vh;
+  cursor: pointer;
+  z-index: 1;
+}
+.arrow-next,
+.arrow-prev {
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.arrow-next {
+  transform: rotate(-45deg);
+  width: 4vh;
+  height: 4vh;
+  right: 6vh;
+  top: 0vh;
+}
+
+.arrow-prev {
+  transform: rotate(135deg);
+    width: 4vh;
+    height: 4vh;
+    left: 4vh;
+    top: 0vh;
+
+}
+
+
+.round1 {
+  left: 2vh;
+  top: -2vh;
+  width: 8vh;
+  height: 8vh;
+  background: #212121;
+  border-radius: 150px;
+  box-shadow: 2px 4px 5px 0 rgba(0,0,0,0.50);
+}
+
+
+.round2 {
+  right: 4vh;
+  top: -2vh;
+  width: 8vh;
+  height: 8vh;
+  background: #212121;
+  border-radius: 150px;
+  box-shadow: 2px 4px 5px 0 rgba(0,0,0,0.50);
 }

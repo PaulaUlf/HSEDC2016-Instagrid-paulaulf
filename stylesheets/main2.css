@@ -1,0 +1,18 @@
+
+.large2 img {
+  width: 90vh;
+  height: 90vh;
+}
+
+.small2 {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  align-content: center;
+}
+
+.small2 img {
+  width: 45vh;
+  height: 45vh;
+}

@@ -87,10 +87,12 @@
 
 .galleryNav div {
   position: fixed;
+    content: "";
   margin-top: 50vh;
   cursor: pointer;
   z-index: 1;
 }
+
 .arrow-next,
 .arrow-prev {
   border-right: 3px solid #fff;
@@ -98,6 +100,7 @@
 }
 
 .arrow-next {
+    -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   width: 4vh;
   height: 4vh;
@@ -106,6 +109,7 @@
 }
 
 .arrow-prev {
+    -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
     width: 4vh;
     height: 4vh;

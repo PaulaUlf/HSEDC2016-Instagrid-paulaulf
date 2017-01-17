@@ -1,20 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @PaulaUlf
- Watch 0
-  Star 0
-  Fork 0 PaulaUlf/DC-2016-Wikimedium-paulaulf
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
-Branch: gh-pages Find file Copy pathDC-2016-Wikimedium-paulaulf/paulaulf/javascripts/jquery-3.1.1.js
-d5ba4ff  on Nov 30, 2016
- PaulaUlf добавили весь проект
-0 contributors
-RawBlameHistory
-10221 lines (8294 sloc)  261 KB
 /*!
  * jQuery JavaScript Library v3.1.1
  * https://jquery.com/
@@ -10235,5 +10218,3 @@ if ( !noGlobal ) {
 
 return jQuery;
 } );
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help

@@ -1,18 +1,34 @@
 
+.images3 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.gallery3 {
+  margin: 25vh;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  /*overflow: scroll;*/
+}
+
 .large3 img {
-  width: 90vh;
-  height: 90vh;
+  width: 60vh;
+  height: 60vh;
 }
 
 .small3 {
   display: flex;
   flex-direction: column;
-  /*justify-content: center;*/
   align-items: center;
   align-content: center;
 }
 
 .small3 img {
-  width: 45vh;
-  height: 45vh;
+  width: 30vh;
+  height: 30vh;
 }

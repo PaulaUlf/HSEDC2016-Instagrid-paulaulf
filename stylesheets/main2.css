@@ -1,4 +1,10 @@
-
+.images2 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
 .large2 img {
   width: 90vh;
   height: 90vh;

@@ -1,6 +1,10 @@
+body {
+  background-color: black;
+}
+
 .gallery {
   position: relative;
-  overflow: scroll;
+  /*overflow: scroll;*/
 }
 
 .galleryRail {
@@ -8,17 +12,16 @@
   transition: all .5s ease;
 }
 
-.galleryRail img {
+/*.galleryRail img {
   display: block;
   margin: 0 auto;
-}
+}*/
 
 .galleryRail figure {
   display:flex;
   align-items: center;
   align-content: center;
   margin: 0 auto;
-
 }
 
 .images {
@@ -26,7 +29,6 @@
   position: relative;
   align-items: center;
   justify-content: center;
-
 }
 
 .large img {
@@ -104,7 +106,7 @@
   transform: rotate(-45deg);
   width: 4vh;
   height: 4vh;
-  right: 6vh;
+  right: 4vh;
   top: 0vh;
 }
 
@@ -119,23 +121,21 @@
 }
 
 
-.round1 {
-  left: 2vh;
-  top: -2vh;
+.round1,
+.round2 {
   width: 8vh;
   height: 8vh;
   background: #212121;
   border-radius: 150px;
-  box-shadow: 2px 4px 5px 0 rgba(0,0,0,0.50);
+  box-shadow: 2px 4px 5px 0 rgba(0,0,0,.5);
 }
 
+.round1{
+  left: 2vh;
+  top: -2vh;
+}
 
 .round2 {
-  right: 4vh;
+  right: 2vh;
   top: -2vh;
-  width: 8vh;
-  height: 8vh;
-  background: #212121;
-  border-radius: 150px;
-  box-shadow: 2px 4px 5px 0 rgba(0,0,0,0.50);
 }

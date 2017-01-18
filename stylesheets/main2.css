@@ -1,3 +1,5 @@
+
+
 .images2 {
   display: flex;
   position: relative;
@@ -6,8 +8,8 @@
   height: 90vh;
 }
 .large2 img {
-  width: 90vh;
-  height: 90vh;
+  width: 88vh;
+  height: 88vh;
 }
 
 .small2 {
@@ -19,6 +21,6 @@
 }
 
 .small2 img {
-  width: 45vh;
-  height: 45vh;
+  width: 44vh;
+  height: 44vh;
 }

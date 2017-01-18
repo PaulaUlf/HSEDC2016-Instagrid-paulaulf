@@ -1,4 +1,3 @@
-
 .images3 {
   display: flex;
   position: relative;
@@ -8,12 +7,14 @@
 }
 
 .gallery3 {
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
   margin: 25vh;
   height: 60vh;
   display: flex;
   flex-direction: row;
-  overflow: hidden;
-  /*overflow: scroll;*/
+
 }
 
 .large3 img {

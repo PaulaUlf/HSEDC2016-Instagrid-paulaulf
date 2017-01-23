@@ -1,16 +1,19 @@
 body {
-  background-color: black;
-    overflow: hidden;
+  background-color: white;
+  overflow: hidden;
     overflow-x: scroll;
-    overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 .gallery {
+
   position: relative;
 }
 
 .galleryRail {
   display: flex;
+  align-items: center;
+  align-content: center;
   transition: all .5s ease;
 }
 
@@ -70,7 +73,6 @@ body {
   cursor: pointer;
   align-items: center;
   z-index: 1;
-
 }
 
 

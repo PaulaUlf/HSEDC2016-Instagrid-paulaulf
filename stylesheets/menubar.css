@@ -1,6 +1,6 @@
 .menubar,
 .footer {
-  /*position: fixed;*/
+  position: fixed;
   background-color: black;
   height: 4vh;
   width: 100%;
@@ -8,9 +8,9 @@
 }
 
 .menubar {
-
   display: flex;
   flex-direction: row;
+    /*align-items: center;*/
   text-align: center;
   justify-content: space-around;
   align-content: center;
@@ -36,7 +36,6 @@
   position: fixed;
   margin-left: 0vw;
 }
-
 .contacts {
   position: fixed;
   margin-left: 30vw;

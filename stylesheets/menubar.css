@@ -8,12 +8,19 @@
 }
 
 .menubar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   top: 0vh;
   text-align: center;
-  justify-content: space-around;
-  align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
   background-color: black;
   margin: 0 auto;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
